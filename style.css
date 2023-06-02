@@ -1,0 +1,114 @@
+.bg-yellow {
+    background-color: #cfc2ff;
+}
+
+.logo {
+    width: 50px;
+}
+
+.name {
+    font-family: 'Yeseva One', cursive;
+    font-size: 5pt;
+    color: azure;
+}
+
+.search img {
+    width: 200px;
+}
+
+.icon {
+    width: 90px;
+}
+ 
+.icon img {
+    width: 40px;
+}
+
+.col img {
+    width: 320px;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+  }
+  
+.col {
+    text-align: center;
+    padding: 20px;
+  }
+  
+.img-fluid {
+    margin: auto;
+  }
+
+.title h1 {
+    font-family: 'Yeseva One', cursive;
+    text-align: right;
+    color: #2c2666;
+    font-size: 50px;
+    margin-right: 70px;
+    margin-top: -20px;
+}
+
+.caption h1 {
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    color: #2c2666;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.caption h2 {
+    text-align: center;
+    color: #2c2666;
+    margin-top: -25px;
+}
+
+.col h2 {
+    font-size: 10pt;
+    text-align: left;
+    color: #2c2666;
+}
+
+.col h3 {
+    font-size: 10pt;
+    text-align: right;
+    color: #2c2666;
+}
+
+.purple-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 310%;
+    background-color: #f0eeff;
+    z-index: -2;
+}
+
+.top{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    text-align: center;
+    background-color: #2c2666;
+    color: #f0eeff;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.top:hover{
+    opacity: 100%;
+}
+/* ********圖片放大****** */
+.hover-zoom {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.05);
+}
